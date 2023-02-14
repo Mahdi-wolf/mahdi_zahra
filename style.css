@@ -6,9 +6,9 @@
 }
 @font-face {
     font-family: sahel;
-    src: url('Sahel-FD.ttf') format('ttf'),
-    url('Sahel-FD.woff') format('woff'),
-    url('Sahel-FD.woff2') format('woff2');
+    src: url('./Sahel-FD.ttf') format('ttf'),
+    url('./Sahel-FD.woff') format('woff'),
+    url('./Sahel-FD.woff2') format('woff2');
 }
 .div
 {
