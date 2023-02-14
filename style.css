@@ -1,0 +1,225 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: sahel;
+    src: url('./sahel-font-v3.4.0/Farsi-Digits/Sahel-FD.ttf') format('ttf'),
+    url('./sahel-font-v3.4.0/Farsi-Digits/Sahel-FD.woff') format('woff'),
+    url('./sahel-font-v3.4.0/Farsi-Digits/Sahel-FD.woff2') format('woff2');
+}
+.div
+{
+    background-color: rgb(54, 57, 63);
+    
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.gradient-background {
+    background: linear-gradient(90deg,#3f3cec,#191330,#13023e);
+    background-size: 180% 180%;
+    animation: gradient-animation 9s ease infinite;
+
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.mtn
+{
+    color: white;
+    font-size: 16px;
+    font-family: sahel;
+    direction: rtl;
+    display: inline-block;
+    text-align: justify;
+    line-height: 35px;
+    z-index: 3;
+    text-shadow:0px 3px 5px red;
+}
+.mtn2
+{
+   direction: rtl;
+   margin-right: 2%;
+   font-size: 1em;
+   text-align: justify;
+   z-index: 3;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+.mtn3
+{
+    margin-top: 100px;
+    direction: rtl;
+    text-align: justify;
+    font-size: 1em;
+    text-align: right;
+    z-index: 3;
+}
+.div1
+{
+    
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: red;  
+    justify-content: flex-start;
+    height: 97vh;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 10;
+    overflow: scroll;
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+.div3
+{
+    /* background-color: rgb(54, 57, 63); */
+      background-image: url("ezgif.com-video-to-gif.gif");  
+    width: 90%;
+    height: 97.4vh;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    position: relative;
+    border-radius: 5%;
+    z-index: 10;
+    -webkit-box-shadow:0px 10px 50px 10px red ;
+-moz-box-shadow:0px 10px 50px 10px red ;
+box-shadow:0px 1px 10px 10px red ;
+}
+ /* .gradient-background1 {
+    background: linear-gradient(302deg,#a26124,#3a05f8,#9d975b);
+    background-size: 180% 180%;
+    animation: gradient-animation 9s ease infinite;
+    z-index: -10;
+    position: relative;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }  */
+.img
+{
+    width: 200px;
+    position: absolute;
+    height: 200px;
+    left:0px;
+}
+.img2
+{
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    right:0px;
+}
+.img3
+{
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    bottom:0px;
+    left:0;
+}
+.img4
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.img5
+{
+    display: flex;
+    width: 50%;
+    height: 97.3vh;
+    margin:0 auto;
+    position:absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.img6
+{
+    width: 30%;
+    height: 200px;
+    margin: 0 auto;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0px;
+    z-index: 30;
+}
+.img7
+{
+    width: 20%;
+    height: 30vh;
+    position: absolute;
+    margin: 0 auto;
+    top: 300px;
+    left: 0px;
+}
+.img8
+{
+    width: 20%;
+    height: 30vh;
+    position: absolute;
+    margin: 0 auto;
+    top: 300px;
+    right: 0px;
+}
+.img9
+{
+    margin: 0 auto;
+}
+.div5
+{
+    
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 40px auto;
+}
