@@ -39,9 +39,16 @@
         <source src="./Elley Duhé - MIDDLE OF THE NIGHT.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
-    <button hidden="hidden" onclick="playAudio()" type="button" >Play Audio</button>
     <script src="code.js"></script>
-
+    <script type="text/javascript">
+function autoplay(){
+    var r =confirm("Would You Like To AutoPlay Music?");
+    if (r == true) {
+        document.getElementById("myAudio").play();
+    }
+  }
+</script>
+<script>autoplay();</script> 
 </body>
 </html>
 
