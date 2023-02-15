@@ -259,7 +259,7 @@ button {
     background: linear-gradient(to left, #007db5, #ff8a00);
     z-index: -1;
 }
-p {
+.audioo {
     position: absolute;
     top: -18px;
     right: 5%;
