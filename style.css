@@ -258,6 +258,7 @@ border-radius:7px 7px 7px 7px ;
     width: 100px;
     height: 100px;
     background-color: white;
-    position: absolute;
-    top: 5px;
+    displya: flex;
+    justify-content: center;
+    flex-direction: column;
 }
