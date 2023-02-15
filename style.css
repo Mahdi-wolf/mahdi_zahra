@@ -253,12 +253,4 @@ box-shadow: 2px 2px 4px 0px #006773;
 -webkit-border-radius:7px 7px 7px 7px ;
 border-radius:7px 7px 7px 7px ;
 }
-.width
-{
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    displya: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+
