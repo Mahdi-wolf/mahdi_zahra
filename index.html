@@ -41,10 +41,17 @@ function myFunction() {
       </div>
     </div>
     <div class="div5"><img class="img9" src="./photo_2023-02-14_03-08-47 copy.png"></div>
-    <audio id="myAudio" autoplay="autoplay"  controls  loop>
-        <source src="./Elley Duhé - MIDDLE OF THE NIGHT.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
+<div id="audio-player-container">
+  <audio src="Elley Duhé - MIDDLE OF THE NIGHT.mp3" preload="metadata" loop></audio>
+  <p>audio player ish</p>
+  <button id="play-icon"></button>
+  <span id="current-time" class="time">0:00</span>
+  <input type="range" id="seek-slider" max="100" value="0">
+  <span id="duration" class="time">0:00</span>
+  <output id="volume-output">100</output>
+  <input type="range" id="volume-slider" max="100" value="100">
+  <button id="mute-icon"></button>
+</div>
     <script src="code.js"></script>
 </body>
 </html>
