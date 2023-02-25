@@ -6,9 +6,9 @@
 }
 @font-face {
     font-family: sahel;
-    src: url('./sahel-font-v3.4.0/Farsi-Digits/Sahel-FD.ttf') format('ttf'),
-    url('./sahel-font-v3.4.0/Farsi-Digits/Sahel-FD.woff') format('woff'),
-    url('./sahel-font-v3.4.0/Farsi-Digits/Sahel-FD.woff2') format('woff2');
+    src: url('Sahel-FD.ttf') format('ttf'),
+    url('Sahel-FD.woff') format('woff'),
+    url('Sahel-FD.woff2') format('woff2');
 }
 .div
 {
